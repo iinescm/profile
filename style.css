@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,800,900&display=swap');
+
+body{
+  background-color: #fbfbfb;
+  color: #b9e1dc;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 27px;
+  font
+}
+
+p{
+  color: #756c83;
+  font-size: 16px;
+}
+
+h2{
+  color: #f38181;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #756c83;
+}
+
+a:hover {
+  background-color: #ffd082;
+}
+
+#photo {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.inline > li {
+  padding: 0px 20px;
+  display: inline-block;
+  list-style: none;
+}
+
+.inline{
+  padding: 0;
+}
+
+.container{
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+}
+.welcome{
+text-align: center;
+}
+
+.media{
+  text-align: center;
+  background: #b9e1dc;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
